@@ -1,3 +1,5 @@
+
+
 import numpy as np
 
 softmax_outputs = np.array([[0.7,0.1,0.2],
