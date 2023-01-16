@@ -10,7 +10,7 @@ import pickle
 import copy #make the copy of the data
 
 
-class Layer_Dense:
+class Layer_Dense: #define a layer with number of inputs, weights, weights, bias and regularizer
   def __init__(self, n_inputs, n_neurons, weight_regularizer_l1 =0,
                weight_regularizer_l2 = 0, bias_regularizer_l1 = 0,
                bias_regularizer_l2 = 0):
